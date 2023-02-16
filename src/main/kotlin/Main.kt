@@ -6,9 +6,10 @@ fun main(){
 }
 fun name(){
 val name = "akirachix"
-println(name[0])
-println(name[2])
-println(name[3])
+    val nm ="${name[0]}${name[2]}${name[3]}"
+    println(nm)
+
+
 }
 
 fun greeting (name:String,age:Int):String{
