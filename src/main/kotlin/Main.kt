@@ -2,7 +2,7 @@ fun main(){
    name()
     println(greeting("Vallary", 22))
     println(Length( ""))
-    word()
+    word("Lavin")
 }
 fun name(){
 val name = "akirachix"
@@ -20,11 +20,11 @@ fun Length(str: String): Int {
     val str = "I am capable"
     return str.length
 }
-fun word (){
-    val name = "Lavin"
-    val word = "That's me!"
-    if (name==word){
-      } else {
+fun word (name: String){
+    val z = "Lavin"
+    if (z.equals(name))
+       println("That's me")
+       else
             println("I don't know who that is")
-        }
+
     }
